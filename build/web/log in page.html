@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Untitled Document</title>
+        <script src="jquery-1.12.3.min.js"></script>
+        <script src="jquery.validate.js"></script>
+        <script>
+            $(document).ready(
+                    function () {
+
+                        $("#form1").validate(
+                                {
+                                }
+
+                        );
+
+                    });
+
+
+        </script>
+        <style type="text/css">
+            <!--
+            div {
+
+
+                position: relative;
+
+                /* Standard syntax */
+                animation-name: example;
+                animation-duration: 5s;
+                animation-timing-function: linear;
+                animation-delay: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+
+            /* Standard syntax */
+            @keyframes example {
+
+                0%  { left:1000px; top:0px;}
+                50%  { left:0px; }
+                100%  { left:1000px;}
+
+            }
+
+            .style1 {
+                font-size: 18px;
+                color: #fff;
+            }
+            .style2 {
+                padding-left: 85px;
+                padding-right: 85px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border: solid #00CCFF 5px;
+                background-color: #00CCFF;
+                font-size: 18px;
+                color: #FFFFFF;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .style3 {
+                color: #fff;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+        <script>
+            function checklog()
+            {
+                var t = document.form1.ID.value;
+                var a = document.getElementById("form1");
+                if (t == "Admin")
+                {
+                    a.action = "checkAdmin"
+                    document.form1.submit();
+                } else if (t == "Employee")
+                {
+                    a.action = "checkEmployee"
+                    document.form1.submit();
+                } else
+                {
+                    a.action = "checkClient"
+                    document.form1.submit();
+                }
+
+
+
+
+            }
+        </script>
+    </head>
+
+    <body background="imgaes/jumbotron.jpg">
+        <table width="1262" height="630" border="0" align="center" >
+            <tr>
+                <td height="100">&nbsp;</td>
+            </tr>
+            <tr>
+                <td><table width="1251" height="506" border="0">
+                        <tr>
+                            <td width="673" align="center" valign="top"> <h1 class="style3">Get Your Team Organized</h1>
+                                <h1 class="style3">Help your team create workflows and assign tasks <br />a
+                                    directly from conversations.</h1>
+                                <p class="style3">All-in-1 solution (discuss, organize, execute) <br />
+                                    Clearer communication (no more emails!) <br />
+                                    Self-organized messaging (organize as you type)</p>&nbsp;</td>
+                            <td width="562" valign="top"><table width="286" border="1" align="center" style="background-color: grey; background: rgba(204, 204, 204, 0.5);">
+                                    <tr>
+                                        <td height="198" ><form id="form1" name="form1" method="post" action="check">
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style1">&nbsp;Username</span>
+                                                <label>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    &nbsp;
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />                                                                         
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
+                                                    <input type="text" name="user" height="40"  placeholder="Username..." class="required " />
+                                                </label>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style1">&nbsp;Password&nbsp;</span></p>
+                                                <p><span class="style1">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <label>
+                                                        <input type="password" name="pass" placeholder="Password..." class="required" />
+
+                                                    </label>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                                <p><span class="style1">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <select name="ID">
+                                                            <option>Admin</option>
+                                                            <option>Employee</option>
+                                                            
+                                                        </select>
+
+                                                    </label>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="77" align="center">
+                                            <label>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;
+                                                &nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <input name="button" type="button" class="style2" id="button" value="Log In" onclick="checklog()" />
+
+                                            </label>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                </table></td>
+                        </tr>
+                    </table></td>
+            </tr>
+        </table>
+    </body>
+</html>

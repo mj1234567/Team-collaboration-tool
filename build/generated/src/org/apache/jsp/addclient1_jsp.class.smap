@@ -1,0 +1,32 @@
+SMAP
+addclient1_jsp.java
+JSP
+*S JSP
+*F
++ 0 addclient1.jsp
+addclient1.jsp
++ 1 functions.jsp
+functions.jsp
++ 2 header.jsp
+header.jsp
++ 3 side menu.jsp
+side menu.jsp
+*L
+1,10:52
+1#1,36:61
+10#0,7:97
+16,4:104
+19,3:108
+1#2,44:111
+21#0,6:154
+1#3,43:160
+26#0,10:203
+36,15:214
+50,2:229
+51,4:231
+54,2:235
+56:237,3
+57:240
+57,2:241
+58,13:243
+*E

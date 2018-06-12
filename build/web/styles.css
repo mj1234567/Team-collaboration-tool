@@ -1,0 +1,232 @@
+.editmember{
+	position:absolute;
+	visibility:hidden;
+	left: 1100px;
+	top: 50px;
+        border-radius: 3px;
+        z-index: 2;
+}
+.project{
+	position:absolute;
+	
+	left: 800px;
+	top: 30px;
+}
+
+.style2 {
+	font-size: xx-large
+}
+.style5 {
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.style8 {font-family: Arial, Helvetica, sans-serif}
+
+.style10 {color: #FFFFFF}
+.style12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #fff;
+        text-decoration: none;
+}
+.style12:hover{
+   color: #ecab56; 
+}
+.style13 {font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; }
+.links{
+color: green;
+
+margin-left:20px;
+font-size:16px;
+}
+.links:hover {
+text-decoration:underline;
+}
+
+
+.style14 {
+	font-size: 16px;
+        
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+        display:block;
+}
+.fonts {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.style15 {font-size: 18px}
+
+.tablehead
+{background-color:#eee;}
+
+.tableback
+{font-size:16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+   
+}
+.tableback td, .tableback th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+.tableback tr:nth-child(even){background-color: #fff}
+
+.tableback th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.disabled
+{background-color: #bbc7c7;}
+
+#f1 p{text-align: left}
+
+.formCenter
+{width:400px; background-color: grey;
+ margin: auto; padding-left: 20px; padding-right: 20px; padding-right: 10px; background: rgba(112, 122, 121, 0.8);}
+
+.formCenter input.data{width:390px; padding:5px; border-radius: 5px; box-shadow: 5px 5px 5px grey;}
+.shadow{box-shadow: 6px 6px 5px grey;}
+
+.scroll{
+    height:550px;
+    overflow:auto}
+
+.scroll2{
+    height:900px;
+   overflow:overflow}
+
+.error{display:block}
+
+.tablesonside{background-color:#000}
+
+
+.button{ background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+     }
+
+.button:hover{
+     background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #4CAF50;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    resize: none;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #4CAF50;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.blur-back{
+     position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+
+
+   /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('img/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
